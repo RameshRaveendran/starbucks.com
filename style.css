@@ -102,6 +102,17 @@ body {
     color: aliceblue;
     
 }
+.greenbox-main{
+    width: 1250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70%;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;;
+    
+}
 .green-box button{
     border-radius: 5rem;
     width: 100px;
@@ -110,10 +121,8 @@ body {
     background-color: #023e2ac2 ;
     color: whitesmoke;
 }
-.green-box > h4{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 420;
+.greenbox-main > h4{
+    font-weight: 440;
     letter-spacing: 1px;
-    color: rgb(255, 255, 255);
-    font-size: large;
+    color: snow;
 }
