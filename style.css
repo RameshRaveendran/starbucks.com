@@ -12,8 +12,7 @@ body {
 
 .container-main {
     width: 100%;
-    height: 100vh;
-    background-color: antiquewhite;
+    
 }
 
 .nav {
@@ -25,6 +24,7 @@ body {
     justify-content: center;
     position: sticky;
     top: 0;
+    z-index: +1;
     
 
 
@@ -280,7 +280,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .learn-main{
@@ -380,4 +380,136 @@ h2{
         font-size: small;
         letter-spacing: 1px;
     }
+}
+.main-footer{
+    width: 100%;
+    height: 900px;
+    background-color:#0e382c ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-container{
+    width: 68%;
+    height: 750px;
+
+    margin-top: 50px;
+    padding-top: 60px;
+}
+.footer-section1{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    
+}
+.footer-lists{
+    
+        display: flex;
+        text-decoration: none;
+        margin-left: 100px;
+    ul{
+        font-family: "Montserrat", sans-serif;
+        color: aliceblue;
+        margin-left: 20px;
+        
+        li{
+            list-style: none;
+            margin-bottom: 40px;
+            font-size: smaller;
+            
+            
+            a{
+                text-decoration: none;
+                color: aliceblue;
+                gap: 50px;
+            }
+        }
+    }
+    
+    
+    
+}
+.footer-lists > ul > li >a:hover{
+
+            color: #6c6c6c;
+
+ 
+}
+.footer-section2{
+width: 100%;
+height: 150px;
+
+}
+.section2items{
+    width: 50%;
+    height: 150px;
+
+    display: flex;
+    gap: 50px;
+    
+}
+.soc-item1{
+    
+    h4{
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: "Montserrat", sans-serif;
+
+
+    }
+}
+.soc-items2{
+    width: 100%;
+    height:200px ;
+    
+    .socs1{
+        img{
+            margin-bottom: 50px;
+        }
+        
+    }
+    
+}
+.final-footer{
+    width: 100%;
+    height: 40px;
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.finalul {
+    
+    display: flex;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+    li:nth-child(+n+2) {
+        
+        list-style: "|  ";
+      }
+    
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    
+}
+.final-sections{
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 10px;
+    }
+}
+.final-sections > a:hover{
+    color: #6c6c6c;
+}
+.normal:hover{
+    color: #6c6c6c;
 }
