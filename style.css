@@ -142,8 +142,13 @@ body {
 
 }
 .banner-content{
-    width: 70%;
-    height: 60%;
+    background-image: url(./images/Screenshot\ 2025-04-15\ 094219.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    width: 80%;
+    height: 50%;
     background-color: rgb(29, 35, 35);
     border-radius: 1rem;
 }
